@@ -82,6 +82,7 @@ h2 strong {
 
 a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 /* Head */
@@ -336,6 +337,10 @@ a {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
 }
 
 .FAQ .accordion details {
